@@ -1,0 +1,62 @@
+<!-- 
+	Copyright (C) 2010 ENKRONA.NET
+
+	This program is free software; you can redistribute it and/or
+	modify it under the terms of the GNU General Public License
+	as published by the Free Software Foundation; either version 2
+	of the License, or (at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this program; if not, write to the Free Software
+	Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+-->
+
+<!--
+Default NPC spawns for the Osiris framework.
+Please edit this file with a text editor (i.e. notepad).
+
+A few notes:
+	Case IS important (i.e. movementRange vs movementrange). It is recommended
+	that you use XML comments to explain each spawn is so others can
+	understand what's going on. The values of each field should be self 
+	explanatory. Have fun!
+-->
+<npcSpawns>
+
+    <npc id="316">
+        <position x="3110" y="3433" z="0"/>
+        <face>south</face>
+    </npc>
+
+    <npc id="316">
+        <position x="3110" y="3434" z="0"/>
+        <face>south</face>
+    </npc>
+
+    <npc id="12">
+        <position x="3083" y="3423" z="0"/>
+        <movementRange minX="3083" minY="3423" maxX="3085" maxY="3425"/>
+    </npc>
+
+    <npc id="12">
+        <position x="3082" y="3416" z="0"/>
+        <movementRange minX="3082" minY="3416" maxX="3084" maxY="3418"/>
+    </npc>
+
+    <npc id="12">
+        <position x="3076" y="3418" z="0"/>
+        <movementRange minX="3076" minY="3418" maxX="3078" maxY="3420"/>
+    </npc>
+
+    <npc id="494">
+        <position x="3086" y="3414" z="0"/>
+    </npc>
+
+
+
+</npcSpawns>

@@ -1,0 +1,48 @@
+<!-- 
+	Copyright (C) 2010 ENKRONA.NET
+
+	This program is free software; you can redistribute it and/or
+	modify it under the terms of the GNU General Public License
+	as published by the Free Software Foundation; either version 2
+	of the License, or (at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this program; if not, write to the Free Software
+	Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+-->
+
+<positions>
+	<pos id="21514" x="2331" y="3802" >
+		<up x="2329" y="3802" z="1" />
+		<down x="2329" y="3802" z="-1" />
+	</pos>
+	
+	<pos id="21515" x="2330" y="3802" z="1" >
+		<down x="2331" y="3802" />
+	</pos>
+	
+	<pos id="11617" x="3076" y="3427" >
+		<swing current="north" to="east" />
+	</pos>
+	
+	<pos id="11616" x="3082" y="3426" >
+		<swing current="west" to="north" />
+	</pos>
+	
+	<pos id="11620" x="3079" y="3435" >
+		<swing current="west" to="north" />
+	</pos>
+	
+	<pos id="11621" x="3078" y="3435" >
+		<swing current="west" to="south" />
+	</pos>
+	
+	<pos id="11616" x="3098" y="3426" >
+		<swing current="west" to="south" />
+	</pos>
+</positions>

@@ -1,0 +1,69 @@
+<!-- 
+	Copyright (C) 2010 ENKRONA.NET
+
+	This program is free software; you can redistribute it and/or
+	modify it under the terms of the GNU General Public License
+	as published by the Free Software Foundation; either version 2
+	of the License, or (at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this program; if not, write to the Free Software
+	Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+-->
+
+<!-- Handles the cosmetic side of dialogues. -->
+<dialogues>
+	
+	<!-- The below three handle the "Man" Npc. -->
+	<dialogue type="npc" id="1">
+		<npc>12</npc>
+		<lines title="Barbarian">
+			<line>Hello NAME, what brings you here?</line>
+		</lines>
+		<next>2</next>
+	</dialogue>
+
+	<!-- Display some options for the user to choose -->
+	<dialogue type="option" id="2">
+		<npc>12</npc>
+		<lines>
+			<line>Nothing much really. Just exploring crap, killing monsters.</line>
+		</lines>
+		<next>3</next>
+	</dialogue>
+
+	<!-- Show the Npc's last dialogue. -->
+	<dialogue type="npc" id="3">
+		<npc>12</npc>
+		<lines title="Barbarian">
+			<line>Glad to see a bright young adventurer like yourself NAME.</line>
+			<line>Come by for a chat anytime you want!</line>
+		</lines>
+		<next>-1</next>
+	</dialogue>
+
+	<!-- Bankers -->
+	<dialogue type="npc" id="1">
+		<npc>494,44,45</npc>
+		<lines title="Banker">
+			<line>What can I do for you today, NAME?</line>
+		</lines>
+		<next>2</next>
+	</dialogue>
+
+	<dialogue type="option" id="2">
+		<npc>494,44,45</npc>
+		<lines>
+			<line>I would like to open up my bank please.</line>
+			<line>Nothing today, thank you.</line>
+		</lines>
+		<next>-1</next>
+	</dialogue>
+	<!-- End of bankers -->
+
+</dialogues>

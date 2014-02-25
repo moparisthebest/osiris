@@ -1,0 +1,46 @@
+<!-- 
+	Copyright (C) 2010 ENKRONA.NET
+
+	This program is free software; you can redistribute it and/or
+	modify it under the terms of the GNU General Public License
+	as published by the Free Software Foundation; either version 2
+	of the License, or (at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this program; if not, write to the Free Software
+	Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+-->
+
+<groundItems>
+
+    <ground id="1351" respawn="true">
+		<X>3076</X>
+		<Y>3430</Y>
+	</ground>
+
+    <ground id="590" respawn="true">
+		<X>3077</X>
+		<Y>3430</Y>
+	</ground>
+
+    <ground id="1265" respawn="true">
+		<X>3073</X>
+		<Y>3429</Y>
+	</ground>
+
+    <ground id="303" respawn="true">
+		<X>3103</X>
+		<Y>3435</Y>
+	</ground>
+
+    <ground id="307" respawn="true">
+		<X>3103</X>
+		<Y>3436</Y>
+	</ground>
+
+</groundItems>
